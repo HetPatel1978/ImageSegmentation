@@ -1,0 +1,12 @@
+newspaper/
+logs/
+Method-1/PRImA Layout Analysis Dataset/
+Method-2/yolov8n.pt
+Method-1/unet_model.h5
+Method-2/__pycache__
+Method-2/dataset_segmentation
+Method-2/images
+Method-2/Json
+Method-2/Mask
+Method-2/Mask2
+Method-2/newspaper_unet.pth
