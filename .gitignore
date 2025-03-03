@@ -17,3 +17,6 @@ Text_classification/trained_model
 model_final.pkl
 Method-4/model_final.pkl
 *.pkl
+.venv
+Method-4/output_publaynet
+detectron2

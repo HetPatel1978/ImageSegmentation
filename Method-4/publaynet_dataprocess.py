@@ -7,7 +7,7 @@ from pycocotools.coco import COCO
 from PIL import Image
 
 # Define dataset paths
-BASE_PATH = r"D:/5101_D/Newspaper/publaynet"  # Change this to the path of your dataset
+BASE_PATH = r"D:\5101_D\Newspaper\ImageSegmentation\publaynet"  # Change this to the path of your dataset
 IMAGE_DIRS = {
     "train": os.path.join(BASE_PATH, "train"),
     "val": os.path.join(BASE_PATH, "val"),
