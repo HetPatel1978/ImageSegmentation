@@ -31,7 +31,7 @@ if __name__ == "__main__":
     cfg.MODEL.ROI_HEADS.NUM_CLASSES = 5  # Set this to match the trained model
 
     # ✅ Load trained weights
-    cfg.MODEL.WEIGHTS = r"D:\5101_D\Newspaper\ImageSegmentation\Method-4\output_publaynet\model_final.pth"
+    cfg.MODEL.WEIGHTS = r"D:\5101_D\Newspaper\ImageSegmentation\Method-4\output_publaynet_2\model_final.pth"
     cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = 0.5  # Confidence threshold for predictions
     cfg.MODEL.DEVICE = "cpu"  # Change to "cuda" if using GPU
 
