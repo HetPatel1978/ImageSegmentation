@@ -15,7 +15,7 @@ MODEL_DIR = r"D:\5101_D\Newspaper\ImageSegmentation\Method-4\output_publaynet"  
 MODEL_PATH = os.path.join(MODEL_DIR, "model_final.pth")  # Trained model path
 
 # ✅ Path to Input Newspaper Image
-INPUT_IMAGE_PATH = r"D:\5101_D\Newspaper\ImageSegmentation\imageprocessor.jpg"  # Change to your test image path
+INPUT_IMAGE_PATH = r"D:\5101_D\Newspaper\ImageSegmentation\page_2_annotated.png"
 
 # ✅ Set Model Configuration
 cfg = get_cfg()
